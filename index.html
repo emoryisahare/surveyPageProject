@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hare Survey Form</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<main>
+    <h1 id="title">Hare Survey</h1>
+    <div id="survey-area">
+      <p id="description">In this survey you will fill out your personal information. I can then use it to create a rabbit based on your name and stuff.</p>
+
+      <form id="survey-form">
+        <div class="labels">
+          <label for="name" id="name-label">Name:</label>
+        <input id="name" placeholder="First Name" type="text" required>
+          </div>
+        <br>
+        <div class="labels">
+          <label for="email" id="email-label">Email:</label>
+        <input id="email" type="email" placeholder="Email" required>
+          </div>
+        <br>
+        <div class="labels">
+          <label for="number" id="number-label">Age:</label>
+        <input id="number" type="number" placeholder="Age" min="1" max="200" required>
+          </div>
+        <br>
+        <div class="labels">
+          <label for="dropdown">Gender:</label>
+        </div>
+        <select id="dropdown">
+        <option value ="male">Male</option>
+        <option value ="female">Female</option>
+        <option value ="other">Other</option>
+        <option value ="prefer not to say">Prefer not to say</option>
+      </select>
+        <br>
+        <div class="labels">
+          <label>Hair color (Hare Color)?:</label>
+        </div>
+        <br><input type="radio" name="hair-color" value="black" checked>Black<br>
+        <input type="radio" name="hair-color" value="brown">Brown<br>
+        <input type="radio" name="hair-color" value="blonde">Blonde<br>
+        <input type="radio" name="hair-color" value="red">Red<br>
+        <input type="radio" name="hair-color" value="white">White<br>
+        <input type="radio" name="hair-color" value="grey">Grey<br>
+        <input type="radio" name="hair-color" value="other">Other<br>
+        <div class="labels">
+          <label>Favorite Activities/Hobbies?:</label><br>
+        </div>
+       <br><input type="checkbox" name="hobby" value="sports">Sports<br>
+        <input type="checkbox" name="hobby" value="camping">Camping<br>
+        <input type="checkbox" name="hobby" value="videogames">Videogames<br>
+        <input type="checkbox" name="hobby" value="art">Art<br>
+        <input type="checkbox" name="hobby" value="knitting">Knitting<br>
+        <input type="checkbox" name="hobby" value="memes">Memes<br>
+        <input type="checkbox" name="hobby" value="programming">Programming<br>
+        <input type="checkbox" name="hobby" value="music">Music<br>
+        <input type="checkbox" name="hobby" value="travel">Travelling<br>
+        <input type="checkbox" name="hobby" value="running">Running<br>
+        <input type="checkbox" name="hobby" value="hopping">Hopping<br>
+        <input type="checkbox" name="hobby" value="gardening">Gardening<br>
+        <div class="labels">
+          <label>Is there anything else you would like to add in the creation of your rabbit character?</label>
+        </div>
+        <textarea name="comments"></textarea>
+        <br>
+        <div id="submit-div">
+        <input id="submit" type="submit" value="Submit">
+          
+        </div>
+      </form>
+    </div>
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

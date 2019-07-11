@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(90deg, #FFF0B2, #8AC97E, #C1B274);
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#survey-area{
+  background-color: #fff;
+  max-width: 600px;
+  padding: 1em;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.labels{
+  display: inline-block;
+  text-align: left;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  font-weight: bold;
+}
+
+#title{
+  text-align: center;
+}
+
+#number{
+  display: inline-block;
+  margin-left: 1em;
+}
+
+#submit-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea{
+  min-width: 100px;
+  max-width: 100%;
+  height: auto;
+  width: 600px;
+}
